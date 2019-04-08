@@ -1,25 +1,32 @@
 * {
-  margin: 0
+  margin: 0;
 }
 
-html {
-  background: url(https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2016/05/dwayne_johnson.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- }
+body {
+  background-color: black;
+}
+
+img {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+}
+
+footer p {
+  color:whitesmoke;
+  text-align: center;
+}
 
  .navbar {
   display: flex;
   justify-content: space-around;
   overflow: hidden;
-  background-color:#456f93;
-  position: fixed;
-  top: 0;
+  background-color:rgba(247, 247, 247, .8);
+  top: 10;
   width: 100%;
-  z-index: 20;
+  z-index: 60;
   margin-left: 0px;
+  font-family: 'Concert One', cursive;
 }
 
 .navbar a {
@@ -29,10 +36,12 @@ html {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .navbar a:hover {
   background: #ddd;
   color: black;
 }
+
+
