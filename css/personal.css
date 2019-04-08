@@ -1,0 +1,19 @@
+body {
+    background-color:black;
+    color: white;
+}
+
+.rock-parents {
+    width: 20%;
+    height: auto;
+}
+
+.the-rock-children {
+    width: 20%;
+    height: auto;
+}
+
+.simone {
+    width: 40%;
+    height: auto;
+}
