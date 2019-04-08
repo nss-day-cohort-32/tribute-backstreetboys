@@ -1,0 +1,38 @@
+* {
+  margin: 0
+}
+
+html {
+  background: url(https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2016/05/dwayne_johnson.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+ .navbar {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  background-color:#456f93;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  margin-left: 0px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
