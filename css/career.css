@@ -1,5 +1,9 @@
 body {
-    background-color: whitesmoke;
+    background-image: url(/img/dwayne_johnson.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: rgba(247, 247, 247, .8);
 }
 
 .rockyContainer {
@@ -11,18 +15,21 @@ body {
 
 .theRock__header {
     text-align: center;
+    margin-top: 60px;
     margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 .theRock__content {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     padding: 15px;
 }
 
 .contentSection {
-    flex-basis: 40%;
+    flex-basis: 30%;
 }
 
 img {
@@ -33,4 +40,5 @@ img {
 .theRock__header2 {
     text-align: center;
     margin-bottom: 10px;
+    text-decoration: underline;
 }
