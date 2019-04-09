@@ -1,0 +1,109 @@
+body {
+    background-color:black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.title {
+    font-size: 3.5em;
+    background-color: rgb(230, 230, 230);
+    border-radius: 8px;
+    margin: .5em 0;
+    padding: .25em;
+    color: black;
+}
+
+.family-title {
+    font-size: 3em;
+    background-color: rgb(230, 230, 230);
+    border-radius: 8px;
+    margin: .5em 20%;
+    padding: .5em;
+    color: black;
+}
+
+.parents {
+    display: flex;
+    align-items: center;
+    padding: 0 4em;
+}
+
+.children {
+    display: flex;
+    align-items: center;
+    padding: 0 4em;
+}
+
+.spouse {
+    display: flex;
+    align-items: center;
+    padding: 0 4em;
+}
+
+.partner {
+    display: flex;
+    align-items: center;
+    padding: 0 4em;
+}
+
+
+.personal-info {
+    margin-top: 2em;
+    text-align: center;
+    padding: 0 4em;
+    margin-bottom: 2em;
+}
+
+.family {
+    text-align: center
+}
+
+.main-pic {
+    width: 60%;
+    height: auto;
+}
+
+.rock-parents {
+    width: 20%;
+    height: auto;
+    margin: .5em;
+}
+
+.the-rock-children {
+    width: 20%;
+    height: auto;
+    margin: .25em;
+}
+
+.simone {
+    width: 30%;
+    height: auto;
+    margin: 2em;
+}
+
+.dany-garcia {
+    width: 40%;
+    height: auto;
+    margin: 2em;
+}
+
+.lauren {
+    width: 40%;
+    height: auto;
+    margin: 2em
+}
+
+.spouse-text, .partner-text, .children-text, .parents-text, .main-content {
+    border: 4px solid white;
+    border-radius: 8px;
+    padding: 2em;
+    margin: 2em
+}
+
+
+
+
