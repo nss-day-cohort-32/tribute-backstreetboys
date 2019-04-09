@@ -9,6 +9,11 @@ body {
 
 .title {
     font-size: 4em;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin: 0 .25em;
+    padding: .25em;
+    color: black;
 }
 
 .family-title {
