@@ -19,7 +19,7 @@ article {
 }
 
 .lastTwo {
-    margin-bottom: 80px;
+    margin-bottom: 90px;
 }
 
 section {
@@ -36,6 +36,14 @@ section {
     background: white;
     color: black;
 }
+
+h3{
+    padding: 10px 10px 10px 0px;
+}
+
+.checked {
+    color: orange;
+  }
 
 /* .rateRock {
     width: 5%;
