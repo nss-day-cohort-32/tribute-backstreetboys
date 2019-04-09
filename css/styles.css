@@ -6,27 +6,42 @@ body {
   background-color: black;
 }
 
-img {
-  padding: 20px;
-  width: 100%;
+.mainImg {
+  padding: 50px;
+  width: 23%;
   height: auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-footer p {
+footer {
   color:whitesmoke;
   text-align: center;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:50px;
+  width:100%;
+  background-color: black;
+}
+
+footer > div{
+  display: inline-block;
 }
 
  .navbar {
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-around;
   overflow: hidden;
   background-color:rgba(247, 247, 247, .8);
-  top: 10;
   width: 100%;
-  z-index: 60;
+  z-index: 1;
   margin-left: 0px;
   font-family: 'Concert One', cursive;
+  margin-bottom: 20px;
 }
 
 .navbar a {
@@ -44,4 +59,43 @@ footer p {
   color: black;
 }
 
+.headerPushDown {
+  margin-top: 70px;
+
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 2px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+	width: 40px;
+  height: 28px;
+	color: #000;
+	background-color: #FFF;
+	border: 1px solid #000;
+	padding-top: 12px;
+	border-radius: 22px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-o-border-radius: 22px;
+}
+
+.socialbtns .fa:hover {
+	color: #FFF;
+	background-color: #000;
+	border: 1px solid #000;
+}
 
