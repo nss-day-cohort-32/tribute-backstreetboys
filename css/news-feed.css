@@ -1,0 +1,43 @@
+
+body {
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lastTwo {
+    margin-bottom: 80px;
+}
+
+section {
+    padding: 20px 20px 50px 20px;
+    border: 2px solid whitesmoke;
+}
+
+.instagram-media, .twitter-tweet, iframe {
+    min-width: 470px !important;
+    max-width: 500px !important;
+}
+
+#facebook {
+    background: white;
+    color: black;
+}
+
+/* .rateRock {
+    width: 5%;
+    height: auto;
+} */
