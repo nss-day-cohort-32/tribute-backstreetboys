@@ -3,6 +3,50 @@ body {
     color: white;
 }
 
+.container {
+
+}
+
+.parents {
+    display: flex;
+    align-items: center;
+    padding: 0 4em;
+}
+
+.children {
+    display: flex;
+    align-items: center;
+    padding: 0 4em;
+}
+
+.spouse {
+    display: flex;
+    align-items: center;
+    padding: 0 4em;
+}
+
+.partner {
+    display: flex;
+    align-items: center;
+    padding: 0 4em;
+}
+
+
+.personal-info {
+    margin-top: 2em;
+    text-align: center;
+    padding: 0 4em;
+}
+
+.family {
+    text-align: center
+}
+
+.main-pic {
+    width: 40%;
+    height: auto;
+}
+
 .rock-parents {
     width: 20%;
     height: auto;
@@ -14,6 +58,16 @@ body {
 }
 
 .simone {
+    width: 30%;
+    height: auto;
+}
+
+.dany-garcia {
+    width: 40%;
+    height: auto;
+}
+
+.lauren {
     width: 40%;
     height: auto;
 }
