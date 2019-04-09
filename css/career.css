@@ -1,0 +1,53 @@
+body {
+    background-image: url(/img/dwayne_johnson.jpg);
+    background-size: cover;
+    background-position: 750px 5px;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: rgba(247, 247, 247, .8);
+}
+
+.rockyContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.theRock__header {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.theRock__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.contentSection {
+    flex-basis: 40%;
+}
+
+img {
+    width: 300px;
+    height: 350px;
+}
+
+.theRock__header2 {
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.contentSection__movies {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
