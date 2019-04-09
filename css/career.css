@@ -1,6 +1,7 @@
 body {
     background-image: url(/img/dwayne_johnson.jpg);
     background-size: cover;
+    background-position: 850px 5px;
     background-repeat: no-repeat;
     height: 100%;
     color: rgba(247, 247, 247, .8);
@@ -46,4 +47,7 @@ img {
 .contentSection__movies {
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 90px;
 }
+
