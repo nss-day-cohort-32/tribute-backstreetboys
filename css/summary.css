@@ -35,6 +35,7 @@ h1.century {
 
 
    .collaborators {
+
        width: 30%;
        border-style: inset;
    }
@@ -42,13 +43,12 @@ h1.century {
      .aliase {
         border-style: inset;
         width: 33%;
-        
-
-     }
+         }
       
       .residency {
         flex-basis: 20%;
         border-style: inset;
+        width: 30%;
            }
 
 h1 {
@@ -73,6 +73,10 @@ li {
       p{
           color: lightcyan;
       }
-          
+
+.house {
+    width: 100%;
+    height: auto;
+}          
       
         
